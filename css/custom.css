@@ -1,0 +1,168 @@
+
+body{
+  background-color: white;
+}
+/*.announcement-wrapper{
+  width: 50%;
+  margin:0 auto;
+  margin-top:22%;
+  text-align: center;
+  color:#3e3e3e;
+}
+.announcement-wrapper h1{
+  font-family: Dancing Script;
+  font-weight: bolder;
+  font-size:3em;
+}
+.announcement-wrapper p{
+  font-family: Martel;
+  font-size:14px;
+}*/
+
+.hero{
+  background-size: cover;
+  background-image: url('../images/sit.jpeg');
+  height: 34em;
+  margin-bottom: 3em;
+}
+.hero > div{
+  margin:0 auto;
+  /*margin-top:22%;*/
+  text-align: center;
+  color:#3e3e3e;
+
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hero > div h1{
+  font-family: Dancing Script;
+  font-weight: 900;
+  font-size:3em;
+}
+.hero > div p{
+  font-family: Martel;
+  font-size:14px;
+}
+
+section{
+  padding:3em 5em 5em 3em;
+  font-family: Martel;
+  color:#3e3e3e;
+  margin: 0 auto;
+  text-align: center;
+}
+section.simple{
+  width: 35%;
+}
+section.faq{
+  width: 40%;
+  text-align: left;
+}
+section.faq > div{
+  margin-bottom: 2.2em;
+}
+
+
+section h2{
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Quicksand;
+
+}
+section p{
+  font-size: 16px;
+}
+
+.btn{
+  width: auto;
+  padding:10px 30px 10px;
+  border-radius: 3px;
+  border:0px;
+  font-family: Quicksand;
+  box-shadow: 0;
+}
+.btn-blue{
+  background-color: #37A8E3;
+}
+.btn-red{
+  background-color: #E33737;
+}
+
+.row{
+  overflow: auto;
+  width: 80%;
+  margin: 0 auto;
+  margin-top:3em;
+}
+.col-3{
+  width: 30%;
+  float:left;
+  padding:1em;
+}
+
+.circle{
+  width: 53px;
+  border-radius: 20em;
+  border:3px solid #3e3e3e;
+  height:53px;
+  margin: 0 auto;
+}
+.circle h2{
+  margin-top:7px;
+}
+
+h3{
+  font-family: Dancing Script;
+  font-size: 31px;
+}
+h4{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.col-3 p, 
+.col-3 ul, 
+.col-3 li{
+  text-align: left;
+}
+
+.col-3 ul > ul li{
+  font-size: 14px;
+}
+.col-3 ul > ul > ul li{
+  font-size: 13px;
+}
+
+form{
+  padding:1em;
+  font-family: Martel;
+}
+form div{
+  overflow: auto;
+}
+form input[type="text"]{
+  padding:1em;
+  width: 70%;
+  float:left;
+}
+form input[type="submit"]{
+  padding:1em;
+  border:1px solid #37A8E3;
+  margin-left:3px;
+  float:right;
+  width: 24%;
+  background-color: #37A8E3;
+}
+form a{
+  font-family: Martel;
+  font-size: 10px;
+  color:#3e3e3e;
+}
+
+
