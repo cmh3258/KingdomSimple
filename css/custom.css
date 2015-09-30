@@ -151,4 +151,63 @@ body{
       color:#3e3e3e;
     }
 
+  /* Simplify */
+    .simplify nav{
+      background-color: #12ABDE;
+    }
+
+    .simplify nav ul{
+      padding: 5px;
+    }
+    .simplify nav ul li{
+      display: inline;
+      color:#5b5b5b;
+    }
+    .title{
+      font-size:2em;
+    }
+    .logo{
+      font-size: 1em;
+    }
+
+    .nav-hrefs{
+      margin-left:3em;
+    }
+    .nav-hrefs li{
+      margin-left:1em;
+    }
+
+    .simplify .hero > div{
+      top:45%;
+    }
+    .simplify .hero{
+      background-image: url('../images/worship.jpg');
+    }
+    .simplify h1{
+      font-family: Dancing Script;
+      font-weight: 900;
+      font-size:4em;
+      color: white;
+    }
+
+
+    .contain{
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .map{}
+    .col-9{
+      width: 66%;
+      float:left;
+    }
+
+
+
+
+
+
+
+
+
 
