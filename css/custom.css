@@ -181,6 +181,10 @@ body{
     .simplify section{
       padding:5em 3em 5em 3em;
     }
+    .simplify section p{
+      font-size: 14px;
+      line-height: 28px;
+    }
 
     
     .simplify h2{
@@ -283,11 +287,15 @@ body{
       width: 40%;
       margin: 0 auto;
     }
+    .simplify #faq > div > div{
+      margin-bottom: 2.2em;
+    }
+
 
 
     #contact{
       width: 100%;
-      background: #333333;
+      background: #171717;
       color: #e1e1e1;
     }
     #contact h3{
