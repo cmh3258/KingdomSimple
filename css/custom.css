@@ -155,7 +155,7 @@ body{
 
   /* Simplify */
     .simplify nav{
-      background-color: #12ABDE;
+      background-color: #171717;
     }
     .simplify nav div{
       overflow: auto;
@@ -178,6 +178,30 @@ body{
     .logo{
       font-size: 1em;
     }
+    .simplify section{
+      padding:5em 3em 5em 3em;
+    }
+
+    
+    .simplify h2{
+      font-family: Oxygen;
+      font-size: 33px;
+    }
+    .simplify h3{
+      font-family: Oxygen;
+      font-size: 24px;
+      color: #333333;
+      font-weight: bolder;
+    }
+    .simplify h5{
+      font-family: Martel Sans;
+      /*font-weight: 600;*/
+      font-size: 14px;
+      color: #4a4a4a;
+    }
+    .simplify a{
+      color:#4AB7D2;
+    }
 
     .nav-hrefs{
       margin-left:3em;
@@ -189,6 +213,7 @@ body{
     }
     .nav-hrefs li a{
       color: white;
+      font-family: Martel Sans;
     }
 
     .simplify .hero > div{
@@ -210,19 +235,63 @@ body{
       margin: 0 auto;
     }
 
+    .bibleStudyContainer{
+      height: 13em;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 2em;
+    }
+    .bibleStudyImg{
+      padding: 1em;
+      max-width:100%;
+      max-height:100%;
+    }
+    .bibleStudyInfo{
+      padding: 0 2em 1em 2em;
+      text-align: left;
+    }
+
+    .pastorContainer{
+      height: 13em;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 2em;
+    }
+
     /* id: services */
       .map{}
       .col-9{
         width: 66%;
         float:left;
       }
+      #services{
+        background: #4AB7D2;
+      }
       #services .col-3{
         text-align: left;
       }
+      #services a{
+        color:white;
+        font-size: 14px;
+      }
+
+    .simplify #faq{
+      width:100%;
+      background:  #e1e1e1;
+    }
+    .simplify #faq > div{
+      width: 40%;
+      margin: 0 auto;
+    }
+
 
     #contact{
       width: 100%;
-      background: #e1e1e1;
+      background: #333333;
+      color: #e1e1e1;
+    }
+    #contact h3{
+      color: #e1e1e1;
     }
 
 
